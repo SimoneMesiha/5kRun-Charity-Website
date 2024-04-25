@@ -5,7 +5,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
-  const email = "contact@yourdomain.com"; // Replace with your email address
+  const email = "cyhelpinghands@gmail.com";
   const instagramUrl = "https://instagram.com/stgeorgebk5k"; // Replace with your Instagram profile link
 
   const scrollToTop = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-indigo-700 text-white">
+    <footer className="bg-purple-700 text-white">
       <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center space-x-4">
           <a href={`mailto:${email}`} className="hover:text-gray-300">
@@ -31,8 +31,8 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
         </div>
-        <div className="text-sm text-gray-400">© 2024 CYHH 5k Run</div>
-        <div className="flex mt-4 md:mt-0">
+        <div className="text-sm text-gray-400">© Run the Race Keep the Faith Annual 5K </div>
+        {/* <div className="flex mt-4 md:mt-0">
           <NavLink className="text-white hover:text-gray-300 px-3 py-2" to="/">
             Home
           </NavLink>
@@ -66,7 +66,7 @@ const Footer = () => {
           >
             Contact Us
           </NavLink>
-        </div>
+        </div> */}
         <button
           onClick={scrollToTop}
           className="text-white hover:text-gray-300 p-2"
