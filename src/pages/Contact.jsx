@@ -21,7 +21,7 @@ const ContactPage = () => {
             <p>Get in touch! Contact us via any of the methods listed below:</p>
             <div className="mt-4">
               <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-              simoneformsubmittest@gmail.com
+              cyhelpinghands@gmail.com
             </div>
             <div className="mt-2">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />

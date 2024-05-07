@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import logo2 from "../assets/logo2.png";
+import logo3 from "../assets/logo3.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <NavLink className="flex-shrink-0 flex items-center" to="/">
-              <img className="h-12 w-auto" src={logo2} alt="React Jobs" />
+              <img className="h-12 w-auto" src={logo3} alt="React Jobs" />
               <span className="hidden lg:block text-xl font-bold ml-2"></span>
             </NavLink>
           </div>
