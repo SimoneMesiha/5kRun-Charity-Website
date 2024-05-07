@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import RegistrationPage from "./pages/Registration";
 import GalleryPage from "./pages/Gallery";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         </Routes>
       </BrowserRouter>
       <SpeedInsights />
+      <Analytics />
     </>
   );
 };
