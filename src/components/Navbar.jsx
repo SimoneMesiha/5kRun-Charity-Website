@@ -42,6 +42,9 @@ const Navbar = () => {
             <NavLink to="/registration" className={linkClass}>
               Registration
             </NavLink>
+            <NavLink to="/runners" className={linkClass}>
+              Our Runners
+            </NavLink>
             <NavLink to="/gallery" className={linkClass}>
               Gallery
             </NavLink>
@@ -64,6 +67,9 @@ const Navbar = () => {
         </NavLink>
         <NavLink to="/registration" className={linkClass} onClick={closeMenu}>
           Registration
+        </NavLink>
+        <NavLink to="/runners" className={linkClass} onClick={closeMenu}>
+          Our Runners
         </NavLink>
         <NavLink to="/gallery" className={linkClass} onClick={closeMenu}>
           Gallery

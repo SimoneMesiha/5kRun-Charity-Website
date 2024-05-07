@@ -8,6 +8,7 @@ import RegistrationPage from "./pages/Registration";
 import GalleryPage from "./pages/Gallery";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
+import Runners from "./pages/Runners";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/registration" element={<RegistrationPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/runners" element={<Runners />} />
           </Route>
         </Routes>
       </BrowserRouter>
