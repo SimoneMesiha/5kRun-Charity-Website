@@ -14,6 +14,11 @@ import mapImage9 from "../runners/5K Sponsors posts 2k24 - 18.jpg"
 import mapImage10 from "../runners/IMG_7555.jpg"
 import mapImage11 from "../runners/IMG_7556.jpg"
 import mapImage12 from "../runners/IMG_7557.jpg"
+import mapImage13 from "../runners/ak.jpg";
+import mapImage14 from "../runners/am.jpg";
+import mapImage15 from "../runners/ay.jpg";
+import mapImage16 from "../runners/ma.jpg";
+import mapImage17 from "../runners/ty.jpg";
 
 const Runners = () => {
   const runners = [
@@ -76,6 +81,31 @@ const Runners = () => {
       id: 12,
       name: "Runner 12",
       imageUrl: mapImage12,
+    },
+    {
+      id: 13,
+      name: "Runner 13",
+      imageUrl: mapImage13,
+    },
+    {
+      id: 14,
+      name: "Runner 14",
+      imageUrl: mapImage14,
+    },
+    {
+      id: 15,
+      name: "Runner 15",
+      imageUrl: mapImage15,
+    },
+    {
+      id: 16,
+      name: "Runner 16",
+      imageUrl: mapImage16,
+    },
+    {
+      id: 17,
+      name: "Runner 17",
+      imageUrl: mapImage17,
     }
     // Add more runners as needed
   ];
