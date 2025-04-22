@@ -9,7 +9,7 @@ const AboutPage = () => {
         <div className="w-full lg:w-1/2">
           {/* <img src={mapImage} alt="Map" className="max-w-full h-auto" /> */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.689746863247!2d-74.03725609772994!3d40.61466836911236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24ff08f150433%3A0xad60b4e34e50ed30!2sShore%20Park%20and%20Parkway!5e0!3m2!1sen!2sus!4v1714012411116!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.9982719709587!2d-73.94002932329126!3d40.607861771409524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2449fb8b9f92d%3A0x2b07fc0b57711fc1!2sMarine%20Park%20Active%20Adults%20and%20Senior%20Center!5e0!3m2!1sen!2sus!4v1745286613679!5m2!1sen!2sus"
             // width="600"
             height="450px"
             width="100%"
