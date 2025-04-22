@@ -1,6 +1,6 @@
 import React from "react";
 import mapImage from "../assets/prospectPark.png"; // Adjust the import path to where your image is located within your project
-import card from "../assetsPhotos/card.jpeg"
+import card from "../assetsPhotos/card.jpeg";
 const AboutPage = () => {
   return (
     <div className="container mx-auto p-4">
@@ -29,9 +29,8 @@ const AboutPage = () => {
             {/* More text */}
           </p>
           <p>
-            Welcome to our 4th Annual “Run the Race Keep the Faith”! This year's
-            5K run will take place on May 11th, 2024 at 12pm, located at Shore
-            Road Park! Our run's mission is to raise money for cancer research
+            Welcome to our 5th Annual “Run the Race Keep the Faith”! This year's
+            5K run will take place on May 10th, 2025 at 12pm, located at Marine Park! Our run's mission is to raise money for cancer research
             and treatment in underserved communities in our homeland of Egypt!
             “Run the Race Keep the Faith” is dedicated to our beloved Tasoni
             Mariem Dosse, and all the proceeds of this fundraiser are directly
