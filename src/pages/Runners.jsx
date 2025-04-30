@@ -1,5 +1,6 @@
 import React from "react";
-import sponsorRulesImage from "../assets/sponsorInstructions.jpg"; // Update path as needed
+import sponsorRulesImage from "../assets/HowToSponsor.jpg"; // Update path as needed
+import sponsorInstruction from "../assets/HowToGetSponsored.jpg";
 import qrCodeImage from "../assets/venmo.jpg"; // Update path as needed
 
 import mapImage1 from "../runners/5K Sponsors posts 2k24 - 10.jpg";
@@ -112,10 +113,28 @@ const Runners = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-xl font-bold text-center my-6">Sponsor our Runners!</h1>
+      <h1 className="text-xl font-bold text-center my-6">
+        Sponsor our Runners!
+      </h1>
       {/* Sponsor Rules Section */}
-      <div className="text-center mb-6">
-        <img src={sponsorRulesImage} alt="Sponsor Rules" className="mx-auto" />
+      <div className="flex justify-center items-center gap-4 mb-6">
+        {/* first card: pulled up a bit */}
+        <div className="relative w-72 aspect-square transform -rotate-3 -top-4 shadow-lg rounded-lg overflow-hidden">
+          <img
+            src={sponsorRulesImage}
+            alt="How to Sponsor"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        </div>
+
+        {/* second card: pushed down a bit */}
+        <div className="relative w-72 aspect-square transform rotate-3 top-4 shadow-lg rounded-lg overflow-hidden">
+          <img
+            src={sponsorInstruction}
+            alt="Get Sponsored"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        </div>
       </div>
 
       {/* QR Code for Donations */}
