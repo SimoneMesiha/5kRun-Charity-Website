@@ -11,12 +11,14 @@ const RegistrationPage = () => {
   };
 
   return (
-    <div className="container mx-auto px-4">
-      <h1 className="text-xl font-bold text-center my-6">Registration Form</h1>
-      {/* Responsive iframe container with inline styles */}
+    <div className="container mx-auto px-4 font-body text-gray-800">
+      <h1 className="font-heading font-bold text-3xl sm:text-4xl text-center my-6">
+        Registration Form
+      </h1>
+      {/* Responsive iframe container */}
       <div
         style={{
-          paddingBottom: "80.25%", // for aspect ratio of 16:9
+          paddingBottom: "56.25%", // 16:9 aspect ratio
           position: "relative",
           height: 0,
         }}
