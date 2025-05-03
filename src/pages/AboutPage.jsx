@@ -39,41 +39,56 @@ const runners = [
 
 const AboutPage = () => {
   return (
-    <div className="container mx-auto px-4 py-10 font-body text-gray-700">
+    <div className="container mx-auto px-4 py-10 font-body text-gray-800">
       {/* Top section: map + info + flyer */}
       <div className="flex flex-col lg:flex-row gap-8 items-start">
-        {/* Google Maps Embed */}
         <div className="w-full lg:w-1/2">
           <div className="aspect-video overflow-hidden rounded-xl shadow-lg">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.9982719709587!2d-73.94002932329126!3d40.607861771409524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2449fb8b9f92d%3A0x2b07fc0b57711fc1!2sMarine%20Park%20Active%20Adults%20and%20Senior%20Center!5e0!3m2!1sen!2sus!4v1745286613679!5m2!1sen!2sus"
               className="w-full h-full border-0"
-              loading="lazy"
               allowFullScreen
+              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
 
-        {/* Info + Flyer */}
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
-          <h2 className="font-heading font-bold text-3xl md:text-4xl mb-4 tracking-tight">
+          <h2 className="font-heading font-bold text-3xl md:text-4xl mb-6 tracking-tight">
             What You Need to Know
           </h2>
-          <p className="text-lg md:text-xl mb-4 leading-relaxed">
-            Welcome to our 5th Annual “Run the Race Keep the Faith”! This year's
-            5K run will take place on <strong>May 10th, 2025 at 12pm</strong>,
-            located at <strong>Marine Park</strong>! Our mission is raising
-            money for cancer research and treatment in underserved communities
-            in Egypt.
+
+          {/* Paragraph 1: diagonal stripe background */}
+          <p
+            className="text-lg md:text-xl mb-6 p-6 rounded-lg shadow-md"
+            style={{
+              backgroundImage:
+                "repeating-linear-gradient(45deg, rgba(128,90,213,0.1), rgba(128,90,213,0.1) 15px, transparent 15px, transparent 30px)",
+            }}
+          >
+            Welcome to our 5th Annual “Run the Race Keep the Faith”! Our{" "}
+            <strong>5K run</strong> kicks off on{" "}
+            <strong>May 10th, 2025 at 12 pm</strong> at{" "}
+            <strong>Marine Park</strong>. Lace up to raise funds for cancer
+            research in underserved communities.
           </p>
-          <p className="text-lg md:text-xl mb-6 leading-relaxed">
-            “Run the Race Keep the Faith” honors our beloved Tasoni Mariem
-            Dosse. All proceeds benefit <strong>Saint Takla Hospital</strong> in
-            Alexandria, Egypt, funding their new Radiation and Immunotherapy
-            Center. Your generous donations have enabled essential treatments
-            and new equipment—thank you!
+
+          {/* Paragraph 2: inverted stripe (opposite angle) */}
+          <p
+            className="text-lg md:text-xl mb-8 p-6 rounded-lg shadow-md"
+            style={{
+              backgroundImage:
+                "repeating-linear-gradient(-45deg, rgba(128,90,213,0.1), rgba(128,90,213,0.1) 15px, transparent 15px, transparent 30px)",
+            }}
+          >
+            “Run the Race Keep the Faith” honors Tasoni Mariem Dosse. All
+            proceeds support <strong>Saint Takla Hospital</strong> in
+            Alexandria, Egypt, funding their Radiation & Immunotherapy Center.
+            Your generosity powers essential treatments—thank you!
           </p>
+
+          {/* Event Flyer */}
           <div className="flex justify-center">
             <img
               src={card}
